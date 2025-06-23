@@ -52,19 +52,27 @@ span{
     
 }
 
-.about-content{
-    text-align: center;
-}
 
 .about-content h3{
     font-size: 2.6rem;
 }
 
-.about-content p {
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
-
+.about-content {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
+
+.about-content p {
+    font-size: 1.8rem;
+    margin: 2rem 0 3rem;
+    text-align: justify;
+    line-height: 1.8;
+    color: var(--text-color); /* Asegúrate de tener un buen contraste */
+}
+
+
 
 .btn-box.btns{
     display: inline-block;
